@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Home Page - Samuel Mosley</title>
+        <meta name="description" content="Samuel Mosley Home Page">
+        <link rel="stylesheet" href="main.css">
+        <script src=""></script>
+    </head>
+    <script type="text/javascript">
+        window.onresize = resize;
+        function resize(){
+            Hex = document.getElementById("Hexagons");
+            if((window.innerWidth < 800)||(window.innerHeight<500)){
+            Hex.style.display = 'none';
+        }
+        else{
+            Hex.style.display = 'block';
+        }}
+    </script>
+    <img id="Hexagons" src="files/blackHexagons.png"/>
+    <body>
+        <header></header>
+        <div id="nameHeader">
+        <p class="firstName"><span>S</span>amuel</p>
+        <p class="middleName"><span>J</span>oseph</p>
+        <p class="lastName"><span>M</span>osley</p>
+        </div>
+        <div id="description"><p>Designer||Product Manager</p></div>
+        <div class="mainMenu">
+            <ul class="headerMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <h2>About Me (At the beginning of 2016)</h2>
+        <p>
+        I am a game designer with professional experience in feature design and implementation, user experience, project management, and programming. When working to deliver a product I do not shy away from learning nwew skills and tools that could better serve the project needs. Both during school and professionally I served on teams of ranging sizes, in an organizational role and development role.
+<br/><br/>
+Until recently I was a game designer at Bohemia Interactive Simulations. Colleagues know me as someone who can effectively communicate, both in person and globally to get features and products delivered. While at Bohemia Interactive Simulations I worked with customers to create and implement features that best served the customers needs and improved the value of the product as a whole.
+<br/><br/>
+My "Arts and Technology" degree program was mainly focused on game development and computer science, while also including project management and user experience.
+<br/><br/>
+Currently I am pursuing new opportunities, and can be reached with the <a href="contact.html">contact info</a> provided.
+        </p>
+        
+        <a href="/index.html">
+            <div id="backToNew">Back to New</div>
+        </a>
+        
+        <script type="text/javascript">
+
+        x = 0;  //horizontal coord
+y = document.height; //vertical coord
+window.scroll(x,y);</script>
+    </body>
+    <footer style="color:#cc99cc"> /* &copy; 2014 - <script>document.write(new Date().getFullYear())</script>. Samuel Mosley. All Rights Reserved.*/</footer>
+</html>

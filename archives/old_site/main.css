@@ -1,0 +1,131 @@
+*{
+font-family: "Courier new", "courier", "Impact", serif;
+}
+
+html {
+    background-color: #313131;
+    
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Courier new", "courier", "Impact", serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: #363636;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #6ccc6c;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #6699cc;
+    text-decoration: none;
+}
+
+#normal{
+    text-decoration: none;
+    color:#fff;
+}
+
+.portfolioList{
+    list-style-type:none;
+}
+
+.headerMenu{
+    z-index: 2;
+    display:inline;
+    list-style-type:none;
+    width: 550px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.headerMenu li{
+    float:left;
+    margin:10px 20px 10px 20px;
+    padding:5px 10px 5px 10px;
+    width:auto;
+    text-align: center;
+    background-color: #313131;
+}
+
+.headerMenu li:hover
+{
+background: #fcfcfc;
+}
+
+.mainMenu {
+    display:table;
+    margin: 0 auto;
+    background-color: #313131;
+}
+
+.resumeList{
+    color: #ff9933;
+}
+#nameHeader{
+    padding: 0 0 0 0;
+}
+.firstName{
+    font-size:36px;
+    margin: 0 0 8px 0;
+    padding: 0 0 0 0;
+}
+
+.middleName{
+    font-size:36px;
+    margin:0 0 8px 1em;
+    padding: 0 0 0 0;
+}
+
+.lastName{
+    font-size:36px;
+    margin:0 0 10px 2em;
+    padding: 0 0 0 0;
+}
+
+#description p{
+    color: #ff9933;
+}
+#Hexagons{
+    position:absolute;
+    z-index: 1;
+    top:-17%;
+    right:-5%;
+    opacity:.2;
+}
+#backToNew{
+    position: fixed;
+    background-color: #448AFF;
+    color:white;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    bottom: 3%;
+    right: 3%;
+    transition-duration: 0.3s;
+}
+#backToNew:hover{
+    transform: scale(1.3);
+}
+footer{
+    bottom:0px;
+    text-align:center;
+}
+

@@ -1,0 +1,15 @@
+The space simulator is supposed to cycle through the life of a star
+and how stars are created. obviously the universe is a bit more
+complex than a few asteroid collisions, but I gave it a shot.
+
+
+
+
+Post mortem:
+-----------------
+I made all the sprites myself which was pretty cool, I made a few that I didnt use.
+I was hoping for user created black holes when the mouse was clicked,
+but I couldnt figure out why they wouldnt be created. the code I had seemed correct,
+both from what I thought and what I could find on the internet. I also would have
+liked to implement gravity in the simulation, so the heavier asteroids could pull
+others toward them and the stars would also have gravity.

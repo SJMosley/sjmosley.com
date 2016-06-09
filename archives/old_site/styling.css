@@ -1,0 +1,29 @@
+*{
+    font-family: "Helvetica", "Arial","Open sans", sans-serif;
+}
+
+html{
+    background-color: #2B60DE;
+}
+
+body{
+    
+}
+
+/*for positioning map under text view*/
+#map{
+    position:relative;
+    z-index: 0;
+}
+
+.messageContainer{
+    position:absolute;
+    top:0px;
+    align-content: center;
+};
+.message{
+    position:relative;
+    align-content: center;
+    z-index: 1;
+}
+

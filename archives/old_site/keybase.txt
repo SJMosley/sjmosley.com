@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/sjmosley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.sjmosley.com
+  * I am sjmosley (https://keybase.io/sjmosley) on keybase.
+  * I have a public key with fingerprint F16A 9C90 8B36 D91F A347  A019 142F FE9D 816A 23EC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "f16a9c908b36d91fa347a019142ffe9d816a23ec",
+            "host": "keybase.io",
+            "key_id": "142ffe9d816a23ec",
+            "uid": "102ab3d8fdca7b0c428d795e3f50a500",
+            "username": "sjmosley"
+        },
+        "service": {
+            "hostname": "www.sjmosley.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411407427,
+    "expire_in": 157680000,
+    "prev": "44dc6e550b222f71b36926ce03a5a0a69c5e069b6284b429f9d6c33349209714",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHoAnicO8LLzMDF2Llm6x6Jxn5pxtMHvpYyhCjEOVcrJeWnVCpZVStlp4KptMy8
+9NSigqLMvBIlK6U0Q7NEy2RLA4skY7MUS8O0RGMT80QDQ0tDE6O0tFTLFAugvJFx
+arKSjlJGfjFIB9CYpMTiVL3MfKAYkBOfmQIUxaK+FCJhYJSYZJxikZaSnGieZJBs
+YmSRYm5pmmqcZmqQaGpgAFJYnFqUl5ibClRdnJWbX5wDdGitjhJQtCwzORXkZpDV
+UBXl5eV6MFV6yfm5QP0FRfkl+cn5OUDZjJKSAiuQ5pLKArDq1KR4qDnxSZl5KUC/
+AzWUpRYVZ+bnKVkZAlUml2SCDDY0MTQ0MTA3MTLXUUqtKMgsSo3PBKkwNTezMAAC
+kDWpZUAjTUxSks1STU0NkoyMjNLMDYEBZ2lklpxqYJxommiQaGaZbJpqYGaZZGZk
+YZJkYmSZZplilmxsbGxiaWRgaW5oogTyWWFevpKVCdCZiekgX2em5yWWlBalKtUe
+OhDDwsDIxcDGygSKPQYuTgFYnO5by/4/8dXnvrv/nzJu8hFbI7Mz89OdSscljeH1
+l7b/maJRucvqE+v/A/eso2JrVls+0lb/z++04IRLxbmD/oabuM+WfI3cfyL49Oyt
+QrY8p43YDq2/IOfsx/zklLL69Oh+vYD7dhxdB3yqZl7aEHVh73qB47zq/76o7Hv0
+nzmgs2+eza0bwTcr3Wy+NT9uvP7D+t36h10v1zCs6S2IvDi3j0lc9JVQQdxGuzkz
+++sZmep//FC2Xq9/T8yCU+T9tLXJ+98WKO/vnqWm+Kk7QumHj0Qra2rknnstmi1P
+/3eJLa//m+RhKX8zeUpB6EyVew2dcs6LChfMrPV6FmLtKHhq6+5e7fIJv1fq3TY3
+cli7lrEOAM/dFto=
+=3aqG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sjmosley
+
+==================================================================
