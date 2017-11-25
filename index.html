@@ -73,6 +73,15 @@
                 margin-top: 8vh;
                 margin-bottom: 8vh;
             }
+            .cutoff{
+                display:block;
+            }
+            @media only screen and (max-width: 1300px){
+                .cutoff{
+                    display:none;
+                    transition: all ease 0.8s;
+                }
+            }
             .aboutButtonText{
                 padding: 8px;
                 background-color: #448AFF;
@@ -299,10 +308,10 @@
                     <div class="aboutText"><p>As a product manager with a background in product, design, computer science, and leadership, I want to contribute to products that improve the daily lives of others.</p></div>
                     <a class="aboutText aboutButton" href="files/Samuel_Mosley_Resume.pdf"><div class="aboutButtonText">Download Resume</div></a>
                     
-                    <div class="aboutText"><p>By focusing on communication and documentation I work to make sure companies and 
+                    <div class="aboutText cutoff"><p>By focusing on communication and documentation I work to make sure companies and 
                         employees stay aligned. My diverse background lets me bridge the gap between technical and 
                         non-technical roles doing what is necessary to create an amazing product with a customer focus.</p></div>
-                    <div class="aboutText"><p>I am currently available for hire and consultation in Austin, Tx.</p></div>
+                    <div class="aboutText cutoff"><p>I am currently available for hire and consultation in Austin, Tx.</p></div>
                     </div>
                 </div>
                 <div class="parallax_layer parallax_layer--base">
@@ -318,6 +327,9 @@
                     </div>
                     <div class="driveText" id="driveTextLearning">
                         <p>See what I am <a class="hvr-sweep-to-right" href="https://www.goodreads.com/review/list/18975415-samuel-mosley?shelf=learning">reading <i class="fa fa-book fa-lg"></i></a></p>
+                    </div>
+                    <div class="driveText" id="drivep5">
+                        <p>See some fun <a class="hvr-sweep-to-right" href="./p5_experiments">p5 Experiments<i class="fa fa-flask fa-lg"></i></a></p>
                     </div>
                     <div class="driveText" id="driveTextOldSite">
                         <p>Check out my past <a class="hvr-sweep-to-right" href="archives/old_site/index.html">website <i class="fa fa-undo fa-lg"></i></a></p>
