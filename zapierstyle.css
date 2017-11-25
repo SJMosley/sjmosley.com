@@ -1,0 +1,155 @@
+html {
+    box-sizing: border-box;
+    background:#DADFE2;
+    font-family:'Open Sans', 'helvetica neue',sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+body {
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.site-wrap {
+    max-width: 80vw;
+    margin: 70px auto;
+    background:white;
+    padding:40px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+    transform: scale(0.98);
+    transition: transform 0.5s;
+}
+
+.fixed-nav .site-wrap{
+    transform: scale(1);
+}
+
+header {
+    text-align: center;
+    height:50vh;
+    background: #499df3;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+h1 {
+    color:white;
+    font-size: 6vw;
+    text-shadow: 3px 4px 0 rgba(0,0,0,0.2)
+}
+
+nav {
+    background:#354147;
+    top:0;
+    width: 100%;
+    transition:all 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display:flex;
+}
+
+nav li {
+    flex:1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-nav li.logo{
+    max-width: 500px;
+}
+
+nav a {
+    text-decoration: none;
+    padding:20px;
+    display: inline-block;
+    color:white;
+    transition:all 0.2s;
+    text-transform: uppercase;
+}
+
+.section-header-container{
+    display: flex;
+    justify-content: left;
+}
+.element-roll{
+    display:flex;
+    justify-content: space-around;
+    background-color: #499DF3;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.element-roll img{
+    display: block;
+    max-width:150px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.element-roll img:hover{
+    flex:5;
+    transform: scale(2);
+    box-shadow: 0 0 1em #354147;
+}
+
+.file_button{
+    background-color: #FFC43E;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.file_button a{
+    text-decoration: none;
+    color: #354147;
+}
+.centered-container{
+    display: flex;
+    justify-content: center;
+}
+.gif{
+    background-color: #46CAEF;
+    padding: 16px;
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gif img{
+    display: block;
+    max-width:300px;
+    width: auto;
+    height: auto;
+}
+
+.caption{
+    color: white;
+}
+.zap-word{
+    color:#FF4A00;
+}
+
+:target:before {
+    content:"";
+    display:block;
+    height:70px; /* fixed header height*/
+    margin:-70px 0 0; /* negative fixed header height */
+}
